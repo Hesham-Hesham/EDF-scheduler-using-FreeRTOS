@@ -1,6 +1,6 @@
 #  EDF scheduler based on FreeRTOS
  - Earliest Deadline First scheduler based on FreeRTOS and simulated on ARM7_LPC2129_Keil_RVDS
-
+<br /><br /><br />
 ## Implementation
 
 
@@ -19,6 +19,8 @@ to ensure that all the modifications could be reversed or used again at any time
 
 > /*EDF Related EDF Related EDF Related */
 
+
+<br /><br /><br />
 
 ## Application
 - Task 1: ""Button_1_Monitor"", {Periodicity: 50, Deadline: 50}  
@@ -43,7 +45,7 @@ This is the consumer task which will write on UART any received string from othe
 
 
 
-
+<br /><br /><br />
 
 
 ## Software Used
@@ -51,11 +53,13 @@ This is the consumer task which will write on UART any received string from othe
  1. Keil uVision5 
  2. SimSo for scheduling process simulation
     
+    <br /><br /><br />
 
 ## Explaination Video
 
 > **You can watch the explaination video of the application in arabic** [here](https://drive.google.com/file/d/1gdXSZnJTe36nWYcXz5DLYc6Su9fh8fnu/view?usp=sharing) .
 
+<br /><br /><br />
 
 ## Directories:
 
@@ -64,6 +68,9 @@ This is the consumer task which will write on UART any received string from othe
 
 + The **FreeRTOS/Demo** directory contains the demo application for (ARM7_LPC2129_Keil_RVDS) 
 + The **FreeRTOS/Simso** directory contains the six-task-application file for SimSo software
+
+<br />
+
 --- 
 This project is based on some of the modifications mentioned in the paper "[Implementation and Test of EDF and LLREFSchedulers in FreeRTOS](http://tesi.cab.unipd.it/51896/1/Implementation_and_Test_of_EDF_and_LLREF_Scgheduler_in_FreeRTOS.pdf)" by  [Enrico Carraro](https://www.semanticscholar.org/author/Enrico-Carraro/2057428125)
 
