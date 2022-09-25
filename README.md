@@ -66,7 +66,7 @@ This is the consumer task which will write on UART any received string from othe
 + The **FreeRTOS/Source** directory contains the FreeRTOS source code, and contains
   its own readme file.
 
-+ The **FreeRTOS/Demo** directory contains the demo application for (ARM7_LPC2129_Keil_RVDS) and it contains the primary project file (**RTOSDemo.uvproj**
++ The **FreeRTOS/Demo** directory contains the demo application for (ARM7_LPC2129_Keil_RVDS) and it also contains the primary project file ( **RTOSDemo.uvproj**
 ) that runs the whole application on Keil uVision5 
 + The **FreeRTOS/Simso** directory contains the six-task-application file for SimSo software
 
